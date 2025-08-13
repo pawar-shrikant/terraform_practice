@@ -1,4 +1,9 @@
-variable "ami_id_value" {
+variable "ami_id_value1" {
+  description = "EC2 instance AMI ID"
+  type        = string
+}
+
+variable "ami_id_value2" {
   description = "EC2 instance AMI ID"
   type        = string
 }
